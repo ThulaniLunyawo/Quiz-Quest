@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Quest - Home</title>
+    <style>
+
+    body{
+    background-color: rgb(201, 228, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    }
+
+    .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001f3f;
+    height: 60px;
+    padding: 10px 20px;
+    } 
+
+    .logo {
+    height: 250px;
+    object-fit: contain;
+    margin-top: 80px;
+    }
+
+    .openbtn{
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    }
+
+    .tb1{
+    margin: 30px 60px;
+    width: 90%;
+    border-spacing: 20px;
+    border-collapse: separate;
+    }
+
+    .tb1 th{
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    background-color: #001f3f;
+    border-radius: 10px;
+    }
+
+    .tb1 th:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+    }
+
+    .display{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    }
+
+    h1{
+    font-size: 22px;
+    color: #ffffff;
+    }
+
+    h2{
+    font-size: 18px;
+    color: #001f3f;
+    }
+
+    </style>
+    <!-- <link rel="stylesheet" type="text/css" href="Quiz Quest Home Screen Styling.css"> -->
+  </head>
+
+  <body>
+
+    <div class="header">
+      <img src="Made with insMind-QUIZ QUEST.png" alt="LOGO" class="logo"> <!-- width="100" height="120"> -->
+      <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+
+    <div id="mySidepanel" class="sidepanel">
+      
+    </div>
+
+    <h1 align="center" style="font-size: 35px; font-family: Verdana, Geneva, Tahoma, sans-serif;">WELCOME [USERNAME] TO QUIZ QUEST</h1>
+    <h2 align="center" style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Choose a subject...</h2>
+
+    <table class="tb1">
+      <tr>
+        <th>
+          <img src="PRT Subject icons/calculator.png" class="display">
+          <h1>MATHEMATICS</h1>
+        </th>
+        <th>
+          <img src="PRT Subject icons/abc.png" class="display">
+          <h1>ENGLISH</h1>
+        </th>
+        <th>
+          <img src="PRT Subject icons/earth-globe.png" class="display">
+          <h1>GEOGRAPHY</h1>
+        </th>
+        <th>
+          <img src="PRT Subject icons/chemistry.png" class="display">
+          <h1>CHEMISTRY</h1>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <img src="PRT Subject icons/formula.png" class="display">
+          <h1>PHYSICS</h1>
+        </th>
+        <th>
+          <img src="PRT Subject icons/history.png" class="display">
+          <h1>HISTORY</h1>
+        </th>
+        <th>
+          <img src="PRT Subject icons/marketing.png" class="display">
+          <h1>BUSINESS</h1>
+        </th>
+        <th>
+          <img src="PRT Subject icons/microscope.png" class="display">
+          <h1>BIOLOGY</h1>
+        </th>
+      </tr>
+      
+    </table>
+
+  </body>
+</html>
 
