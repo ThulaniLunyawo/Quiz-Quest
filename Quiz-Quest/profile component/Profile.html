@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Quest Profile</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>  
 
+  <div class="screen" id="profileScreen" style="display: none;">
+    <div class="header">QUIZ QUEST <span class="menu">&#9776;</span></div>
+    <div class="form-container">
+      <form id="profileForm"> 
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="text" id="surname" placeholder="Surname" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="phoneNumber" placeholder="Phone number" required />
+        <input type="date" id="dob" placeholder="Date of birth" required />
+        <input type="text" id="grade" placeholder="Grade" required />
+        <button type="submit" class="dark-btn">Save Changes</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
