@@ -1,0 +1,34 @@
+.header {
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-tabs {
+    display: flex;
+    margin-left: auto;
+}
+
+.tab {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.analytics-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.analytics-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
